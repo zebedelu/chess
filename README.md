@@ -2,7 +2,7 @@
 
 Um jogo de xadrez desenvolvido em Python com foco em **código limpo**, **programação orientada a objetos (POO)** e boa organização de código.
 
-Projeto criado como prática de lógica de programação, regras complexas e estrutura de software durante o curso Técnico em Informática no IFC - Campus Concórdia.
+Projeto criado dia 23 de janeiro de 2026, desenvolvido em apenas 3 dias, sem uso de inteligência artificial para codificar por mim, apenas para tirar dúvidas simples.
 
 ## Funcionalidades
 
