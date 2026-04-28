@@ -30,7 +30,6 @@ class Game:
         self.mover_pessa_esta_permitido = True
 
         self.objetos = [
-            *[Peao(self, (i,6), 1) for i in range(8)],
             Torre(self, (0,7), 1),
             Torre(self, (7,7), 1),
             Cavalo(self, (1,7), 1),
@@ -40,7 +39,6 @@ class Game:
             Rainha(self, (3,7), 1),
             Rei(self, (4,7), 1),
             
-            *[Peao(self, (i,1), -1) for i in range(8)],
             Torre(self, (0,0), -1),
             Torre(self, (7,0), -1),
             Cavalo(self, (1,0), -1),
@@ -52,6 +50,12 @@ class Game:
             self.background,
             self.ui,
         ]
+
+        for i in range(8):
+            self.objetos.insert(0, Peao(self, (i,1), -1))
+            
+        for i in range(8):
+            self.objetos.insert(0, Peao(self, (i,6), 1))
 
         self.game_rules = [
             check
