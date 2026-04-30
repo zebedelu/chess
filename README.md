@@ -46,8 +46,10 @@ Aprender a trabalhar com assets e interface gráfica.
 Manter o código organizado e legível (seguindo boas práticas).
 
 ## Status atual
+
 Em desenvolvimento inicial.
-Próximos passos:
+
+## Próximos passos:
 
 - Finalizar validação de todos os movimentos especiais (en passant, castling, promoção de peão, check, check-mate).
 - Implementar detecção automática de fim de jogo.
